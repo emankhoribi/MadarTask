@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Madar</string>
     <string name="add_info">Add Your Info</string>
     <string name="name">Name</string>
     <string name="phone">Phone Number</string>
@@ -13,4 +13,6 @@
     <string name="male">Male</string>
     <string name="female">Female</string>
     <string name="next">Next</string>
+    <string name="your_info">Your Info</string>
+    <string name="validation_msg">*All fields are required, please fill all fields</string>
 </resources>

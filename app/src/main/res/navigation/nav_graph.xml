@@ -10,5 +10,14 @@
         android:id="@+id/registerFragment"
         android:name="com.example.myapplication.ui.RegisterFragment"
         android:label="fragment_register"
-        tools:layout="@layout/fragment_register" />
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_informationFragment"
+            app:destination="@id/informationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.example.myapplication.ui.InformationFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
 </navigation>
